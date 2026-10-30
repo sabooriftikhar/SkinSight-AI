@@ -1,2 +1,1 @@
-# SkinSight-AI
-SkinSight AI is a deep learning-based image classification application that analyzes uploaded skin images
+SkinSight AI is a deep learning-based skin lesion image classification application using MobileNetV2 transfer learning and the HAM10000 dataset. Built with TensorFlow and Streamlit, it classifies dermatoscopic images into seven predefined categories and visualizes model evaluation results.
