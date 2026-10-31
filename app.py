@@ -8,7 +8,11 @@ import tensorflow as tf
 from PIL import Image
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
+PROJECT_REPORT_URL = "https://github.com/sabooriftikhar/SkinSight-AI/blob/main/SkinSight_AI_Project_Report.docx"
 
+PRESENTATION_URL = "https://github.com/sabooriftikhar/SkinSight-AI/blob/main/SkinSight_AI_Final_Presentation.pptx"
+
+GITHUB_REPO_URL = "https://github.com/sabooriftikhar/SkinSight-AI"
 # ----------------------------------
 # PAGE CONFIGURATION
 # ----------------------------------
@@ -134,18 +138,18 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("📚 Project Resources")
 
 st.sidebar.markdown(
-    """
+    f"""
     **📄 Project Report**
 
-    [Open Word Report](SkinSight_AI_Project_Report.docx)
+    [Open Word Report]({PROJECT_REPORT_URL})
 
     **📊 Project Presentation**
 
-    [View PPT Slides](SkinSight_AI_Final_Presentation.pptx)
+    [View PPT Slides]({PRESENTATION_URL})
 
     **💻 GitHub Repository**
 
-    [View Source Code](https://github.com/sabooriftikhar/SkinSight-AI)
+    [View Source Code]({GITHUB_REPO_URL})
     """
 )
 
