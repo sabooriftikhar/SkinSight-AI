@@ -137,15 +137,15 @@ st.sidebar.markdown(
     """
     **📄 Project Report**
 
-    [Open Word Report](ADD_WORD_DOC_LINK_HERE)
+    [Open Word Report](SkinSight_AI_Project_Report.docx)
 
     **📊 Project Presentation**
 
-    [View PPT Slides](ADD_PPT_LINK_HERE)
+    [View PPT Slides](SkinSight_AI_Final_Presentation.pptx)
 
     **💻 GitHub Repository**
 
-    [View Source Code](ADD_GITHUB_REPO_LINK_HERE)
+    [View Source Code](https://github.com/sabooriftikhar/SkinSight-AI)
     """
 )
 
